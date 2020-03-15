@@ -1,0 +1,7 @@
+﻿  Functions.cpp
+c:\users\pawel\source\repos\10ef78cf-gr17-repo\projekt\darwin\darwin\functions.cpp(250): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+c:\users\pawel\source\repos\10ef78cf-gr17-repo\projekt\darwin\darwin\functions.cpp(268): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+c:\users\pawel\source\repos\10ef78cf-gr17-repo\projekt\darwin\darwin\functions.cpp(280): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  Source.cpp
+  Generowanie kodu...
+  Darwin.vcxproj -> C:\Users\pawel\source\repos\10ef78cf-gr17-repo\projekt\Darwin\x64\Debug\Darwin.exe

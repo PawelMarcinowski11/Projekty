@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projekt_zwierzatko", "Projekt_zwierzatko\Projekt_zwierzatko.vcxproj", "{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Debug|x64.ActiveCfg = Debug|x64
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Debug|x64.Build.0 = Debug|x64
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Debug|x86.Build.0 = Debug|Win32
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Release|x64.ActiveCfg = Release|x64
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Release|x64.Build.0 = Release|x64
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Release|x86.ActiveCfg = Release|Win32
+		{FD512EA3-B1A5-468C-91B0-1B9AD7F740E5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7F8839C-B0C2-41A1-A130-3E5E35ABC9FA}
+	EndGlobalSection
+EndGlobal

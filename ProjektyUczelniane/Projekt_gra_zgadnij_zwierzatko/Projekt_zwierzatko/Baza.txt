@@ -1,0 +1,473 @@
+PIES
+
+Czy to zwierz© to PIES?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© szczeka?
+To zwierz© szczeka
+To zwierz© nie szczeka
+
+KOT
+
+Czy to zwierz© to KOT?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© pije mleko przez caàe æycie?
+To zwierz© pije mleko przez caàe æycie
+To zwierz© pije mleko tylko we wczesnym etapie swojego æycia, jeòli w og¢le
+
+NIEDçWIEDç POLARNY
+
+Czy to zwierz© to NIEDçWIEDç POLARNY?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma biaày kolor?
+To zwierz© ma biaày kolor
+To zwierz© nie ma biaàego koloru
+
+Czy to zwierz© æyje bardzo daleko od pingwin¢w?
+To zwierz© æyje bardzo daleko od pingwin¢w
+To zwierz© æyje tylko troch© daleko od pingwin¢w, a moæe nawet caàkiem blisko
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© zapada w sen zimowy?
+To zwierz© zapada w sen zimowy
+To zwierz© nie zapada w sen zimowy
+
+NIEDçWIEDç BRUNATNY
+
+Czy to zwierz© to NIEDçWIEDç BRUNATNY?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© zapada w sen zimowy?
+To zwierz© zapada w sen zimowy
+To zwierz© nie zapada w sen zimowy
+
+KOT ALBINOS
+
+Czy to zwierz© to KOT ALBINOS?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© pije mleko przez caàe æycie?
+To zwierz© pije mleko przez caàe æycie
+To zwierz© pije mleko tylko we wczesnym etapie swojego æycia, jeòli w og¢le
+
+Czy to zwierz© ma biaày kolor?
+To zwierz© ma biaày kolor
+To zwierz© nie ma biaàego koloru
+
+ROSOMAK
+
+Czy to zwierz© to ROSOMAK?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+SALAMANDRA PLAMISTA
+
+Czy to zwierz© to SALAMANDRA PLAMISTA?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest pàazem?
+To zwierz© jest pàazem
+To zwierz© nie jest pàazem
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+PINGWIN
+
+Czy to zwierz© to PINGWIN?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma dzi¢b?
+To zwierz© ma dzi¢b
+To zwierz© nie ma dzioba
+
+Czy to zwierz© æyje bardzo daleko od nied´wiedzi polarnych?
+To zwierz© æyje bardzo daleko od nied´wiedzi polarnych
+To zwierz© æyje tylko troch© daleko od nied´wiedzi polarnych, a moæe nawet caàkiem blisko
+
+Czy to zwierz© jest ptakiem?
+To zwierz© jest ptakiem
+To zwierz© nie jest ptakiem
+
+Czy to zwierz© ma skrzydàa?
+To zwierz© ma skrzydàa
+To zwierz© nie ma skrzydeà
+
+Czy to zwierz© ma pàetwy?
+To zwierz© ma pàetwy
+To zwierz© nie ma pàetw
+
+Czy to zwierz© æyje w wodzie?
+To zwierz© æyje w wodzie
+To zwierz© nie æyje w wodzie
+
+NIEPYLAK APOLLO
+
+Czy to zwierz© to NIEPYLAK APOLLO?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+Czy to zwierz© ma skrzydàa?
+To zwierz© ma skrzydàa
+To zwierz© nie ma skrzydeà
+
+Czy to zwierz© potrafi lataÜ?
+To zwierz© potrafi lataÜ
+To zwierz© nie potrafi lataÜ
+
+Czy to zwierz© jest owadem?
+To zwierz© jest owadem
+To zwierz© nie jest owadem
+
+GRYF
+
+Czy to zwierz© to GRYF?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma skrzydàa?
+To zwierz© ma skrzydàa
+To zwierz© nie ma skrzydeà
+
+Czy to zwierz© potrafi lataÜ?
+To zwierz© potrafi lataÜ
+To zwierz© nie potrafi lataÜ
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma dzi¢b?
+To zwierz© ma dzi¢b
+To zwierz© nie ma dzioba
+
+SUSEù
+
+Czy to zwierz© to SUSEù?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest gryzoniem?
+To zwierz© jest gryzoniem
+To zwierz© nie jest gryzoniem
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© zapada w sen zimowy?
+To zwierz© zapada w sen zimowy
+To zwierz© nie zapada w sen zimowy
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+óWISTAK
+
+Czy to zwierz© to óWISTAK?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest gryzoniem?
+To zwierz© jest gryzoniem
+To zwierz© nie jest gryzoniem
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© zapada w sen zimowy?
+To zwierz© zapada w sen zimowy
+To zwierz© nie zapada w sen zimowy
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+Czy to zwierz© siedzi i zawija je w te sreberka?
+To zwierz© siedzi i zawija je w te sreberka
+To zwierz© nie siedzi i nie zawija ich w te sreberka
+
+WIEWI‡RKA
+
+Czy to zwierz© to WIEWI‡RKA?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest gryzoniem?
+To zwierz© jest gryzoniem
+To zwierz© nie jest gryzoniem
+
+Czy to zwierz© nadzwyczaj bardzo lubi orzechy?
+To zwierz© nadzwyczaj bardzo lubi orzechy
+To zwierz© nie lubi orzech¢w nadzwyczaj bardzo
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+PANDA
+
+Czy to zwierz© to PANDA?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© ma cztery àapy?
+To zwierz© ma cztery àapy
+To zwierz© nie ma czterech àap
+
+Czy to zwierz© ma sieròÜ?
+To zwierz© ma sieròÜ
+To zwierz© nie ma sieròci
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© jest znane z jedzenia bambusa?
+To zwierz© jest znane z jedzenia bambusa
+To zwierz© nie jest znane z jedzenia bambusa
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+ORKA
+
+Czy to zwierz© to ORKA?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© æyje w wodzie?
+To zwierz© æyje w wodzie
+To zwierz© nie æyje w wodzie
+
+Czy to zwierz© ma pàetwy?
+To zwierz© ma pàetwy
+To zwierz© nie ma pàetw
+
+Czy to zwierz© to taka panda, tylko æe w wodzie?
+To zwierz© to taka panda, tylko æe w wodzie
+To zwierz© nie jest wodnym odpowiednikiem pandy
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+FOKA
+
+Czy to zwierz© to FOKA?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© jest ssakiem?
+To zwierz© jest ssakiem
+To zwierz© nie jest ssakiem
+
+Czy to zwierz© æyje w wodzie?
+To zwierz© æyje w wodzie
+To zwierz© nie æyje w wodzie
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© ma pàetwy?
+To zwierz© ma pàetwy
+To zwierz© nie ma pàetw
+
+Czy to zwierz© jest pod ochron•?
+To zwierz© jest pod ochron•
+To zwierz© nie jest pod ochron•
+
+REKIN
+
+Czy to zwierz© to REKIN?
+[X] BRAK PODPOWIEDZI
+[X] BRAK ZAPRZECZENIA
+
+Czy to zwierz© jest ryb•?
+To zwierz© jest ryb•
+To zwierz© nie jest ryb•
+
+Czy to zwierz© æyje w wodzie?
+To zwierz© æyje w wodzie
+To zwierz© nie æyje w wodzie
+
+Czy to zwierz© ma ogon?
+To zwierz© ma ogon
+To zwierz© nie ma ogona
+
+Czy to zwierz© ma pàetwy?
+To zwierz© ma pàetwy
+To zwierz© nie ma pàetw
+
+Czy to zwierz© wyst©powaào w znanych horrorach?
+To zwierz© wyst©powaào w znanych horrorach
+To zwierz© nie wyst©powaào w znanych horrorach

@@ -1,0 +1,30 @@
+﻿  gameplay.c
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(82): warning C4013: niezdefiniowany "wyswietlPodSpodem"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(98): warning C4013: niezdefiniowany "inicjalizacja"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(100): warning C4013: niezdefiniowany "rysujPlansze"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(117): warning C4013: niezdefiniowany "dopasujRozmiar"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(141): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char [8][9]"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(141): warning C4024: "finalizacjaMeczu": różne typy dla formalnego i rzeczywistego parametru 11
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(147): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char [8][9]"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(147): warning C4024: "sprawdzanieTabeliWynikow": różne typy dla formalnego i rzeczywistego parametru 7
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(150): warning C4047: "funkcja": "char *" różni się w poziomach operatorów pośrednich od "char [8][9]"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(150): warning C4024: "cofnij": różne typy dla formalnego i rzeczywistego parametru 6
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(222): warning C4013: niezdefiniowany "zwolnijPamiec"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\gameplay.c(225): warning C4013: niezdefiniowany "przesuwanieKursora"; przy założeniu, że extern zwraca int
+  wyniki.c
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(122): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(124): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(130): warning C4013: niezdefiniowany "zwolnijPamiec"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(147): warning C4244: "=": konwersja z "double" do "time_t", możliwa utrata danych
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(151): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(154): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(251): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(260): warning C4013: niezdefiniowany "wyswietlPodSpodem"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(296): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(302): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(308): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(314): warning C4133: "=": niezgodne typy - od "wynik *" do "wynik *"
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(333): warning C4013: niezdefiniowany "rysujPlansze"; przy założeniu, że extern zwraca int
+c:\users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\projekt\projekt\projekt\wyniki.c(271): warning C4101: "temp_sprawdzajacy": lokalna zmienna, do której nie istnieje odwołanie
+  Generowanie kodu...
+  Projekt.vcxproj -> C:\Users\pawel\source\repos\polsl-aei-pk2\0963b2ea-gr71-repo\Projekt\Projekt\Debug\Projekt.exe
