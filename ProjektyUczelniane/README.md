@@ -1,6 +1,12 @@
 # Projekty Uczelniane
 <ol>
   <li>
+    Gra SNAKE (C++)
+    <p>
+      Program zaprogramowany w języku C++ i korzystający ze środowiska graficznego SFML, odtwarza grę w snake, gdzie gracz wciela się w postać węża i stara się zebrać pojawiające się na planszy jabłka. Poza tradycyjnym trybem jednoosobowym, gra oferuje starcie w trybie wieloosobowym, przeciwko innym graczom, bądź przeciwko AI.
+    </p>
+  </li>
+  <li>
     Gra kółko krzyżyk (C)
     <p>
       Program pozwala na rozgrywkę w konsoli systemu Windows w rozbudowaną grę w kółko krzyżyk, gdzie celem jest ułożyć linię z pięciu pionków z rzędu. Przeciwnik AI wybiera najbardziej optymalny ruch oceniając wartość każdego pola pod kątem ułożenia własnej linii, bądź przeszkodzenia graczowi w dokonaniu tego celu. Taktyka preferowana przez przeciwnika może być dostosowana odpowiednimi parametrami. Wyniki meczy przechowywane są w pliku binarnym i mogą być odczytywane w dowolnym momencie w trakcie gry.
@@ -15,7 +21,7 @@
   <li>
     Symulacja populacji pt. "Darwin" (C++)
     <p>
-      Program symuluje populację osobników reprezentowaną przez ciągi liczb naturalnych, które w każdej iteracji mogą krzyżować się, rozmnażać bądź umierać.
+      Program symuluje algorytm genetyczny, poprzez przedstawienie populacji osobników reprezentowanej przez ciągi liczb naturalnych, które w każdej iteracji mogą krzyżować się, rozmnażać bądź umierać.
     </p>
   </li>
 </ol>

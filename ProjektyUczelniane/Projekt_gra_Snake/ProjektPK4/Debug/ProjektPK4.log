@@ -1,0 +1,25 @@
+﻿  Render.cpp
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(33): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(36): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-gora>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(39): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-brak>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(42): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-trwa>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(45): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-ai>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\render.cpp(119): warning C4244: "argument": konwersja z "double" do "unsigned int", możliwa utrata danych
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\render.cpp(127): warning C4244: "argument": konwersja z "double" do "unsigned int", możliwa utrata danych
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\render.cpp(298): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Src.cpp
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(33): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(36): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-gora>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(39): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-brak>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(42): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-trwa>" podczas gdy brak deklaracji zmiennej
+c:\users\pawel\source\repos\polsl-aei-pk3\pmwtorek1330\projektpk4\projektpk4\header.h(45): warning C4091: "typedef ": zignorowano na lewo od "<unnamed-enum-ai>" podczas gdy brak deklaracji zmiennej
+  Generowanie kodu...
+  ProjektPK4.vcxproj -> C:\Users\pawel\source\repos\polsl-aei-pk3\PMwtorek1330\ProjektPK4\Debug\ProjektPK4.exe
