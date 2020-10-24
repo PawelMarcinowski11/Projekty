@@ -1,0 +1,10 @@
+E:\Users\pawel\source\repos\JAProj\JAProj\bin\Debug\JAProj.exe.config
+E:\Users\pawel\source\repos\JAProj\JAProj\bin\Debug\JAProj.exe
+E:\Users\pawel\source\repos\JAProj\JAProj\bin\Debug\JAProj.pdb
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.csprojAssemblyReference.cache
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.Properties.Resources.resources
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.csproj.GenerateResource.cache
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.csproj.CoreCompileInputs.cache
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.exe
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.pdb
+E:\Users\pawel\source\repos\JAProj\JAProj\obj\Debug\JAProj.Form1.resources

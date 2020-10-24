@@ -1,6 +1,12 @@
 # Projekty Uczelniane
 <ol>
   <li>
+    Multifiltr (C#)
+    <p>
+      Aplikacja napisana w języku C# i zrealizowana za pomocą WinForms, pozwala na modyfikację i zapis plików graficznych z wykorzystaniem pięciu filtrów zapewnionych przez program. Operacja jest wykonywana wielowątkowo, a aplikacja pozwala użytkownikowi dostosować liczbę wątków wykorzystywaną do obliczeń. 
+    </p>
+  </li>
+  <li>
     Gra SNAKE (C++)
     <p>
       Program zaprogramowany w języku C++ i korzystający ze środowiska graficznego SFML, odtwarza grę w snake, gdzie gracz wciela się w postać węża i stara się zebrać pojawiające się na planszy jabłka. Poza tradycyjnym trybem jednoosobowym, gra oferuje starcie w trybie wieloosobowym, przeciwko innym graczom, bądź przeciwko AI.
