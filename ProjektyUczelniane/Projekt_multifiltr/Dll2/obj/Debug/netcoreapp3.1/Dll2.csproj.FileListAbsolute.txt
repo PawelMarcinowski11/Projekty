@@ -1,9 +1,0 @@
-F:\Users\pawel\source\repos\JAProj\Dll2\bin\Debug\netcoreapp3.1\Dll2.deps.json
-F:\Users\pawel\source\repos\JAProj\Dll2\bin\Debug\netcoreapp3.1\Dll2.dll
-F:\Users\pawel\source\repos\JAProj\Dll2\bin\Debug\netcoreapp3.1\Dll2.pdb
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.csprojAssemblyReference.cache
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.AssemblyInfoInputs.cache
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.AssemblyInfo.cs
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.csproj.CoreCompileInputs.cache
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.dll
-F:\Users\pawel\source\repos\JAProj\Dll2\obj\Debug\netcoreapp3.1\Dll2.pdb
