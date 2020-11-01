@@ -1,0 +1,6 @@
+F:\Users\pawel\source\repos\JAProj\DllCS\bin\Debug\DllCS.dll
+F:\Users\pawel\source\repos\JAProj\DllCS\bin\Debug\DllCS.pdb
+F:\Users\pawel\source\repos\JAProj\DllCS\obj\Debug\CSharpDll.csprojAssemblyReference.cache
+F:\Users\pawel\source\repos\JAProj\DllCS\obj\Debug\CSharpDll.csproj.CoreCompileInputs.cache
+F:\Users\pawel\source\repos\JAProj\DllCS\obj\Debug\DllCS.dll
+F:\Users\pawel\source\repos\JAProj\DllCS\obj\Debug\DllCS.pdb

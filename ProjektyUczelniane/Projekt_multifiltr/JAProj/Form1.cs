@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading;
@@ -16,6 +17,8 @@ using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using System.Xml;
 using System.Xml.Schema;
+using JAProjDll2;
+
 
 namespace JAProj
 {
@@ -45,8 +48,13 @@ namespace JAProj
         //public string dir;
         public string filename;
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
+            //int[] testowe = { 0,1,2,3,4,5,6,7,8 };
+            //byte x = MyProc1(testowe);
+
             string filePath;
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -58,9 +66,9 @@ namespace JAProj
                     filePath = filename;
                     //dir = filename.Remove(filename.LastIndexOf("\\"));
 
-                    if(zz != null)
+                    if (zz != null)
                         zz.Dispose(); //Przed otworzeniem nowego pliku, odłączam się od poprzedniego
-                    
+
                     zz = File.OpenRead(filePath);
                 }
                 else
@@ -135,7 +143,9 @@ namespace JAProj
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            if (sharpen.Checked)
+            if (radioButton1.Checked)
+            {
+                if (sharpen.Checked)
                 filtr1.Image = zastosujFiltr(new Sharpen());
             if (gauss.Checked)
                 filtr2.Image = zastosujFiltr(new Gauss());
@@ -145,6 +155,22 @@ namespace JAProj
                 filtr3.Image = zastosujFiltr(new Jednorodny());
             if (prewitt.Checked)
                 filtr5.Image = zastosujFiltr(new Prewitt());
+            }
+
+            if (radioButton2.Checked)
+            {
+                if (sharpen.Checked)
+                    filtr1.Image = zastosujFiltr(new AsmSharpen());
+                if (gauss.Checked)
+                    filtr2.Image = zastosujFiltr(new AsmGauss());
+                if (uwypuklenie.Checked)
+                    filtr4.Image = zastosujFiltr(new AsmUwypuklajacy());
+                if (usredniajacy.Checked)
+                    filtr3.Image = zastosujFiltr(new AsmJednorodny());
+                if (prewitt.Checked)
+                    filtr5.Image = zastosujFiltr(new AsmPrewitt());
+            }
+
             stopWatch.Stop();
             label2.Text = "Czas wykonania operacji: " + stopWatch.ElapsedMilliseconds + "ms";
             stopWatch.Reset();
@@ -156,12 +182,22 @@ namespace JAProj
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            filtr1.Image = zastosujFiltr(new Sharpen());
-            filtr2.Image = zastosujFiltr(new Gauss());
-            filtr4.Image = zastosujFiltr(new Uwypuklajacy());
-            filtr3.Image = zastosujFiltr(new Jednorodny());
-            filtr5.Image = zastosujFiltr(new Prewitt());
-
+            if (radioButton1.Checked)
+            {
+                filtr1.Image = zastosujFiltr(new Sharpen());
+                filtr2.Image = zastosujFiltr(new Gauss());
+                filtr4.Image = zastosujFiltr(new Uwypuklajacy());
+                filtr3.Image = zastosujFiltr(new Jednorodny());
+                filtr5.Image = zastosujFiltr(new Prewitt());
+            }
+            if (radioButton2.Checked)
+            {
+                filtr1.Image = zastosujFiltr(new AsmSharpen());
+                filtr2.Image = zastosujFiltr(new AsmGauss());
+                filtr4.Image = zastosujFiltr(new AsmUwypuklajacy());
+                filtr3.Image = zastosujFiltr(new AsmJednorodny());
+                filtr5.Image = zastosujFiltr(new AsmPrewitt());
+            }
             stopWatch.Stop();
             label2.Text = "Czas wykonania operacji: " + stopWatch.ElapsedMilliseconds + "ms";
             stopWatch.Reset();
@@ -270,7 +306,7 @@ namespace JAProj
         }
 
         //Ograniczam liczbę zadań oczekujących jednocześnie kolejce
-        private static readonly Semaphore Semafora = new Semaphore(250, 250);
+        private static readonly Semaphore Semafora = new Semaphore(80, 80);
 
         static public byte[] Wykonaj(byte[,,] tab, int w, int h, int d, IFiltrAbstract filtr)
         {
@@ -280,21 +316,22 @@ namespace JAProj
             {
                 for (int j = 0; j < h; j++)
                 {
-                    for (int z = 0; z < d; z++)
+                    Semafora.WaitOne();
+
+                    int ip = i;
+                    int jp = j;
+
+                    ThreadPool.QueueUserWorkItem(
+                    new WaitCallback(delegate (object state)
                     {
-                        int ip = i;
-                        int jp = j;
-                        int zp = z;
-
-                        Semafora.WaitOne();
-
-                        ThreadPool.QueueUserWorkItem(
-                        new WaitCallback(delegate (object state)
+                        for (int z = 0; z < d; z++)
                         {
-                            obsluzPiksel(ip, jp, zp, w, h, d, tab, tab_flat, filtr);
-                        }), null);
+                            //int zp = z;
 
-                    }
+                            obsluzPiksel(ip, jp, z, w, h, d, tab, tab_flat, filtr);
+                        }
+                        Semafora.Release();
+                    }), null);
                 }
             }
             return tab_flat;
@@ -370,7 +407,6 @@ namespace JAProj
 
             //tab_flat[i * h * d + j * d + z] = filtr.Filtruj(najblizsze);
 
-            Semafora.Release();
 
             return;
         }

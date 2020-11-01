@@ -109,5 +109,11 @@
   <ItemGroup>
     <Content Include="Bitmap1.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DllCS\CSharpDll.csproj">
+      <Project>{cb6a8e3b-40de-45a3-a0d0-7f4b5412425a}</Project>
+      <Name>CSharpDll</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

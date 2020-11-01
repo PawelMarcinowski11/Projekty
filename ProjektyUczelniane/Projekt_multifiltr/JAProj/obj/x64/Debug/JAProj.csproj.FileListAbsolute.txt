@@ -8,3 +8,16 @@ E:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csproj.GenerateRe
 E:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csproj.CoreCompileInputs.cache
 E:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.exe
 E:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.pdb
+F:\Users\pawel\source\repos\JAProj\JAProj\bin\x64\Debug\JAProj.exe.config
+F:\Users\pawel\source\repos\JAProj\JAProj\bin\x64\Debug\JAProj.exe
+F:\Users\pawel\source\repos\JAProj\JAProj\bin\x64\Debug\JAProj.pdb
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csprojAssemblyReference.cache
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.Form1.resources
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.Properties.Resources.resources
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csproj.GenerateResource.cache
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csproj.CoreCompileInputs.cache
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.exe
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.pdb
+F:\Users\pawel\source\repos\JAProj\JAProj\obj\x64\Debug\JAProj.csproj.CopyComplete
+F:\Users\pawel\source\repos\JAProj\JAProj\bin\x64\Debug\DllCS.dll
+F:\Users\pawel\source\repos\JAProj\JAProj\bin\x64\Debug\DllCS.pdb

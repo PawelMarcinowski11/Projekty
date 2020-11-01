@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Katalog Output nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Output.
+  Assembling Funkcje.asm...
+     Trwa tworzenie biblioteki ..\JAProj\bin\x64\Release\AsmDll.lib i obiektu ..\JAProj\bin\x64\Release\AsmDll.exp
+  LINK : określono opcję /LTCG, lecz generowanie kodu nie było wymagane; usuń opcję /LTCG z wiersza polecenia konsolidatora w celu podwyższenia wydajności konsolidatora
+  AsmDll.vcxproj -> F:\Users\pawel\source\repos\JAProj\AsmDll\..\JAProj\bin\x64\Release\AsmDll.dll

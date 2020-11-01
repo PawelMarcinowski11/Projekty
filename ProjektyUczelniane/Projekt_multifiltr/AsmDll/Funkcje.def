@@ -1,0 +1,6 @@
+LIBRARY AsmDll
+
+EXPORTS MyProc1
+Jednorodny
+Wagowy
+WagowyBezBrzegow

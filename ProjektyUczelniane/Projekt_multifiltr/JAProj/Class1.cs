@@ -1,321 +1,75 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using JAProjDll2;
 
 namespace JAProj
 {
-    public class Gauss : IFiltrAbstract
+
+
+    public class AsmGauss : IFiltrAbstract
     {
+        [DllImport("AsmDll.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern byte Wagowy(int[] x, int[] w);
+
         public byte Filtruj(int[] tab)
         {
-            int waga = 0;
-            int wartosc = 0;
-
-            if (tab[0] != -1)
-            {
-                waga += 1;
-                wartosc += tab[0];
-            }
-
-            if (tab[1] != -1)
-            {
-                waga += 2;
-                wartosc += tab[1] * 2;
-            }
-
-            if (tab[2] != -1)
-            {
-                waga += 1;
-                wartosc += tab[2];
-            }
-
-
-            if (tab[3] != -1)
-            {
-                waga += 2;
-                wartosc += tab[3] * 2;
-            }
-
-            if (tab[4] != -1)
-            {
-                waga += 4;
-                wartosc += tab[4] * 4;
-            }
-
-            if (tab[5] != -1)
-            {
-                waga += 2;
-                wartosc += tab[5] * 2;
-            }
-
-
-            if (tab[6] != -1)
-            {
-                waga += 1;
-                wartosc += tab[6];
-            }
-
-            if (tab[7] != -1)
-            {
-                waga += 2;
-                wartosc += tab[7] * 2;
-            }
-
-            if (tab[8] != -1)
-            {
-                waga += 1;
-                wartosc += tab[8];
-            }
-
-            //return (byte)tab[4];
-
-            return (byte)(wartosc / waga);
+            int[] wagi = { 1, 2, 1,
+                           2, 4, 2,
+                           1, 2, 1 };
+            return Wagowy(tab, wagi);
         }
     }
 
-    public class Uwypuklajacy : IFiltrAbstract
+    public class AsmJednorodny : IFiltrAbstract
     {
+        [DllImport("AsmDll.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern byte Jednorodny(int[] x);
         public byte Filtruj(int[] tab)
         {
-            int wartosc = 0;
-
-            if (tab[1] != -1)
-            {
-                wartosc -= tab[1];
-            }
-
-            if (tab[2] != -1)
-            {
-                wartosc -= tab[2];
-            }
-
-            if (tab[3] != -1)
-            {
-                wartosc += tab[3];
-            }
-
-            if (tab[4] != -1)
-            {
-                wartosc += tab[4];
-            }
-
-            if (tab[5] != -1)
-            {
-                wartosc -= tab[5];
-            }
-
-            if (tab[6] != -1)
-            {
-                wartosc += tab[6];
-            }
-
-            if (tab[7] != -1)
-            {
-                wartosc += tab[7];
-            }
-
-
-
-            if (wartosc < 0)
-                wartosc = 0;
-
-            if (wartosc > 255)
-                wartosc = 255;
-
-            return (byte)(wartosc);
+            return Jednorodny(tab);
         }
     }
 
-    public class Prewitt : IFiltrAbstract
+    public class AsmSharpen : IFiltrAbstract
     {
+        [DllImport("AsmDll.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern byte WagowyBezBrzegow(int[] x, int[] w);
         public byte Filtruj(int[] tab)
         {
-            int wartosc = 0;
-
-            if (tab[1] != -1)
-            {
-                wartosc += tab[1];
-            }
-
-            if (tab[2] != -1)
-            {
-                wartosc += tab[2] * 2;
-            }
-
-            if (tab[3] != -1)
-            {
-                wartosc -= tab[3];
-            }
-
-            if (tab[5] != -1)
-            {
-                wartosc += tab[5];
-            }
-
-            if (tab[6] != -1)
-            {
-                wartosc -= tab[6] * 2;
-            }
-
-            if (tab[7] != -1)
-            {
-                wartosc -= tab[7];
-            }
-
-
-
-            if (wartosc < 0)
-                wartosc = 0;
-
-            if (wartosc > 255)
-                wartosc = 255;
-
-            return (byte)(wartosc);
+            int[] wagi = {-1,-1,-1,
+                          -1, 9,-1,
+                          -1,-1,-1 };
+            return WagowyBezBrzegow(tab, wagi);
         }
     }
 
-    public class Sharpen : IFiltrAbstract
+    public class AsmUwypuklajacy : IFiltrAbstract
     {
+        [DllImport("AsmDll.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern byte WagowyBezBrzegow(int[] x, int[] w);
         public byte Filtruj(int[] tab)
         {
-            int waga = 0;
-            int wartosc = 0;
-
-            if (tab[0] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[0];
-            }
-
-            if (tab[1] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[1];
-            }
-
-            if (tab[2] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[1];
-            }
-
-            if (tab[3] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[3];
-            }
-
-            if (tab[4] != -1)
-            {
-                waga += 9;
-                wartosc += tab[4] * 9;
-            }
-
-            if (tab[5] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[5];
-            }
-
-
-            if (tab[6] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[6];
-            }
-
-            if (tab[7] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[7];
-            }
-
-            if (tab[8] != -1)
-            {
-                waga -= 1;
-                wartosc -= tab[8];
-            }
-
-
-            if (wartosc < 0)
-                wartosc = 0;
-
-            if (wartosc > 255)
-                wartosc = 255;
-
-            return (byte)(wartosc / waga);
+            int[] wagi = { 0,-1,-1,
+                           1, 1,-1,
+                           1, 1, 0 };
+            return WagowyBezBrzegow(tab, wagi);
         }
     }
 
-    public class Jednorodny : IFiltrAbstract
+    public class AsmPrewitt : IFiltrAbstract
     {
+        [DllImport("AsmDll.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern byte WagowyBezBrzegow(int[] x, int[] w);
         public byte Filtruj(int[] tab)
         {
-            int waga = 0;
-            int wartosc = 0;
-
-            if (tab[0] != -1)
-            {
-                waga += 1;
-                wartosc += tab[0];
-            }
-
-            if (tab[1] != -1)
-            {
-                waga += 1;
-                wartosc += tab[1];
-            }
-
-            if (tab[2] != -1)
-            {
-                waga += 1;
-                wartosc += tab[2];
-            }
-
-
-            if (tab[3] != -1)
-            {
-                waga += 1;
-                wartosc += tab[3];
-            }
-
-            if (tab[4] != -1)
-            {
-                waga += 1;
-                wartosc += tab[4];
-            }
-
-            if (tab[5] != -1)
-            {
-                waga += 1;
-                wartosc += tab[5];
-            }
-
-
-            if (tab[6] != -1)
-            {
-                waga += 1;
-                wartosc += tab[6];
-            }
-
-            if (tab[7] != -1)
-            {
-                waga += 1;
-                wartosc += tab[7];
-            }
-
-            if (tab[8] != -1)
-            {
-                waga += 1;
-                wartosc += tab[8];
-            }
-
-
-            //return (byte)tab[4];
-
-            return (byte)(wartosc / waga);
+            int[] wagi = { 0, 1, 2,
+                          -1, 0, 1,
+                          -2,-1, 0 };
+            return WagowyBezBrzegow(tab, wagi);
         }
     }
 }
