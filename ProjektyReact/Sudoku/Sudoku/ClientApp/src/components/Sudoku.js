@@ -392,20 +392,18 @@ export class Sudoku extends Component {
         );
     }
 
-    doFunction = (func) => func()
-
     render() {
         this.clearReferences();
         this.smallSquareIndex = 0;
         this.bigSquareIndex = 0;
-        let contents = this.doFunction(this.renderSudoku); //this.state.loading
+        let contents = this.renderSudoku(); //this.state.loading
         //? <p><em>Loading...</em></p>
         // Sudoku.renderForecastsTable(this.state.forecasts);
 
         return (
             <div>
-                <h1 id="tabelLabel" >Weather forecast</h1>
-                <p>This component demonstrates fetching data from the server.</p>
+                <h1 id="tabelLabel" >Sudoku</h1>
+                <p>This page demonstrates a game of sudoku. Fill each field with a number between 1-9, so that each column, row, and big 3x3 square contains exactly one copy of each number.</p>
                 {contents}
             </div>
         );
