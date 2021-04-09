@@ -68,8 +68,6 @@ export class Sudoku extends Component {
 
         this.state = {
             forecasts: [], loading: true,
-            x: 0,
-            y: 0,
             fontSize: "1px",
             boardWidth: "1%"
         };
